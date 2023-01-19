@@ -1,7 +1,7 @@
 /*
  * File name:	monty_run.c
- * Authors:	Luis Miguel Vargas
- *		Robinson Montes
+ * Authors:	Joel Kores
+ *		Elizabeth
  */
 
 #include "monty.h"
