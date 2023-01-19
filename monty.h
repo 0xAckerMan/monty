@@ -22,6 +22,25 @@ typedef struct stack_s
 	struct stack_s *next;
 } stack_t;
 
+/* monty_main.c */
+int main(int ac, char **av);
+
+/* monty_free.c */
+void free_stack(stack_t **stack);
+
+/* monty_run.c */
+int monty_run(FILE *fd);
+char **tokening(char *line, char *delim);
+int empty_line(char *line, char *delims);
+
+/* monty_exec.c */
+int execute(char **token, stack_t **stack, unsigned int line_num);
+int monty_push(stack_t **stack, char **token, unsigned int line_num);
+int monty_pushq(stack_t **stack, char **token, unsigned int line_num);
+void monty_pall(stack_t **stack, unsigned int line_num);
+
+
+
 /**
  * struct bus_s - variables -args, file, line content
  * @arg: value
