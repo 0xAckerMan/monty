@@ -11,6 +11,9 @@
 6. sub
 ```
 
+## Description
+Monty is a scripting language that is compiled into Monty byte codes.
+
 ### Contributors:
 [Elizabeth](https://github.com/Wairigu) 
 
